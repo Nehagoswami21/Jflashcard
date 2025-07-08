@@ -1,34 +1,29 @@
-# 🈶 JFlashcard: Japanese Flashcard App
+## 📖 About the Project
 
-**JFlashcard** is a Python-based flashcard app for learning Japanese vocabulary.  
-This version supports JLPT levels, provides pronunciation using text-to-speech, and shows example sentences.
+**Jflashcard** is a Python-based flashcard app developed by **Neha Giri Goswami**.  
+It helps users learn Japanese vocabulary (grouped by JLPT level), test their knowledge, and improve recall with example usage and optional text-to-speech.
 
----
+## 💡 Features
 
-## ✨ Features
+- Flashcards from a comprehensive Japanese vocabulary dataset
+- JLPT level selection (N5–N1)
+- Random word testing
+- Usage examples and kana support
+- (Optional) Pronunciation using gTTS
 
-- 📚 Learn Japanese vocabulary by JLPT level (N5–N1)
-- 🈳 See kanji, kana, and English meaning
-- 🗣️ Hear pronunciation using Google Text-to-Speech (gTTS)
-- 📘 View example sentence for context
-- 🎯 Get feedback on your answers (Correct / Almost / Incorrect)
-- 🔁 Randomized word selection to help reinforce memory
+## Getting Started
 
----
-
-## 🛠 Tech Used
-
-- Python 3
-- gTTS (Google Text-to-Speech)
-- TSV dataset from Kaggle
-- Colab / Local-compatible
-
----
-
-## 🚀 How to Run
-
-### 1. Clone the repo
 ```bash
+# Clone the repo
 git clone https://github.com/Nehagoswami21/Jflashcard.git
+
+# Navigate into the folder
 cd Jflashcard
+
+# Install dependencies (optional)
+pip install -r requirements.txt
+
+# Run the app
+python Jflashcard_app.py
+
 
